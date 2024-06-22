@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+sudo pacman -Syyu sway swaybg swayidle swaylock foot grim slurp wf-recorder \
+  wlsunset neofetch newsboat amfora github-cli git lf qrencode zbar \
+  lazygit mpv mpd mpc pulsemixer qpwgraph brightnessctl alsa-utils p7zip \
+  ttf-jetbrains-mono ttf-jetbrains-mono-nerd noto-fonts-emoji noto-fonts \
+  qutebrowser mako rofi-wayland imagemagick ffmpeg chafa discord vscode \
+  nodejs npm lftp neovim bash-completion htop xorg-xwayland keepassxc \
+  wl-clipboard curl wget openssh man-db playerctl
+
+git clone --depth=1 https://github.com/tukainpng/dotfiles /tmp/dots
+
+cp -r /tmp/dots/.config ~/
+cp -r /tmp/dots/.local ~/
+cp -r /tmp/dots/.bash* ~/
+
+git clone --depth=1 https://aur.archlinux.org/paru-bin /tmp/paru
+cd /tmp/paru
+makepkg -si
+
+paru -S jekyll mpd-mpris-bin
