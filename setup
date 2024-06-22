@@ -18,4 +18,4 @@ git clone --depth=1 https://aur.archlinux.org/paru-bin /tmp/paru
 cd /tmp/paru
 makepkg -si
 
-paru -S jekyll mpd-mpris-bin
+paru -S jekyll mpd-mpris-bin pinentry-rofi
