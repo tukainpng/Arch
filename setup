@@ -4,9 +4,11 @@ sudo pacman -Syyu sway swaybg swayidle swaylock foot grim slurp wf-recorder \
   wlsunset neofetch newsboat amfora github-cli git lf qrencode zbar \
   lazygit mpv mpd mpc pulsemixer qpwgraph brightnessctl alsa-utils p7zip \
   ttf-jetbrains-mono ttf-jetbrains-mono-nerd noto-fonts-emoji noto-fonts \
-  qutebrowser mako rofi-wayland imagemagick ffmpeg chafa discord vscode \
+  qutebrowser mako rofi-wayland imagemagick ffmpeg chafa discord \
   nodejs npm lftp neovim bash-completion htop xorg-xwayland keepassxc \
-  wl-clipboard curl wget openssh man-db playerctl
+  wl-clipboard curl wget openssh man-db playerctl bat qemu-ui-sdl qemu-ui-gtk \
+  qemu-system-x86 qemu-img qemu-docs qemu-audio-pipewire \
+  qemu-hw-display-virtio-gpu-gl python-adblock
 
 git clone --depth=1 https://github.com/tukainpng/dotfiles /tmp/dots
 
