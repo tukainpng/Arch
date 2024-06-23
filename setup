@@ -7,7 +7,7 @@ sudo pacman -Syyu sway swaybg swayidle swaylock foot grim slurp wf-recorder \
   qutebrowser mako rofi-wayland imagemagick ffmpeg chafa discord \
   nodejs npm lftp neovim bash-completion htop xorg-xwayland keepassxc \
   wl-clipboard curl wget openssh man-db playerctl bat qemu-ui-sdl qemu-ui-gtk \
-  qemu-system-x86 qemu-img qemu-docs qemu-audio-pipewire \
+  qemu-system-x86 qemu-img qemu-docs qemu-audio-pipewire imv noto-fonts-cjk \
   qemu-hw-display-virtio-gpu-gl python-adblock
 
 git clone --depth=1 https://github.com/tukainpng/dotfiles /tmp/dots
