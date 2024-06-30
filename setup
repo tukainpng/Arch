@@ -4,7 +4,7 @@ sudo pacman -Syyu sway swaybg swayidle swaylock foot grim slurp wf-recorder \
   wlsunset fastfetch newsboat amfora github-cli git lf qrencode zbar \
   lazygit mpv mpd mpc pulsemixer qpwgraph brightnessctl alsa-utils p7zip \
   ttf-jetbrains-mono ttf-jetbrains-mono-nerd noto-fonts-emoji noto-fonts \
-  mako rofi-wayland imagemagick ffmpeg chafa discord \
+  mako rofi-wayland imagemagick ffmpeg chafa udisks2 \
   nodejs npm lftp neovim bash-completion htop xorg-xwayland keepassxc \
   wl-clipboard curl wget openssh man-db playerctl bat qemu-ui-sdl qemu-ui-gtk \
   qemu-system-x86 qemu-img qemu-docs qemu-audio-pipewire imv noto-fonts-cjk \
@@ -20,4 +20,4 @@ git clone --depth=1 https://aur.archlinux.org/paru-bin /tmp/paru
 cd /tmp/paru
 makepkg -si
 
-paru -S jekyll mpd-mpris-bin pinentry-rofi dragon-drop-git cli-visualizer-git google-chrome
+paru -S mpd-mpris-bin pinentry-rofi dragon-drop-git cli-visualizer-git google-chrome
