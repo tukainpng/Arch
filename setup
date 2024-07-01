@@ -1,14 +1,13 @@
 #!/usr/bin/env bash
 
 sudo pacman -Syyu sway swaybg swayidle swaylock foot grim slurp wf-recorder \
-  wlsunset fastfetch newsboat amfora github-cli git lf qrencode zbar \
-  lazygit mpv mpd mpc pulsemixer qpwgraph brightnessctl alsa-utils p7zip \
+  wlsunset fastfetch newsboat github-cli git lf qrencode zbar \
+  lazygit mpv mpd mpc pulsemixer brightnessctl alsa-utils p7zip \
   ttf-jetbrains-mono ttf-jetbrains-mono-nerd noto-fonts-emoji noto-fonts \
-  mako rofi-wayland imagemagick ffmpeg chafa udisks2 \
-  nodejs npm lftp neovim bash-completion htop xorg-xwayland keepassxc \
-  wl-clipboard curl wget openssh man-db playerctl bat qemu-ui-sdl qemu-ui-gtk \
-  qemu-system-x86 qemu-img qemu-docs qemu-audio-pipewire imv noto-fonts-cjk \
-  qemu-hw-display-virtio-gpu-gl python-adblock eza pipewire yt-dlp autotiling-rs
+  mako rofi-wayland imagemagick ffmpeg chafa udisks2 qutebrowser \
+  nodejs npm lftp neovim bash-completion htop keepassxc \
+  wl-clipboard curl wget openssh man-db playerctl bat noto-fonts-cjk \
+  python-adblock eza pipewire yt-dlp qt5-wayland qt6-wayland
 
 git clone --depth=1 https://github.com/tukainpng/dotfiles /tmp/dots
 
@@ -20,4 +19,4 @@ git clone --depth=1 https://aur.archlinux.org/paru-bin /tmp/paru
 cd /tmp/paru
 makepkg -si
 
-paru -S mpd-mpris-bin pinentry-rofi dragon-drop-git cli-visualizer-git google-chrome
+paru -S mpd-mpris-bin pinentry-rofi dragon-drop-git cli-visualizer-git
